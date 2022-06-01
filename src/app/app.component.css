@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ .container-fluid{
+    height: 30%;
+    background-color: white;
+   padding: 10px;
+}
+ .container-fluid ul li a{
+    color: black ;
+    font-size: 15px;
+    padding-right: 60px; 
+}
+
+.d-flex input[type="search"]
+{
+    border-radius: 5px;
+    border-color: black;
+}
+.d-flex button{
+    color: black;
+    border-color: black;
+    padding: 0 3px;
+    border-radius: 5px;
+    font-size: 15px;
+    position: relative;
+}
+.d-flex button:hover{
+    background-color: skyblue;
+}
+.d-flex button:focus{
+    background-color: skyblue;
+}
+.dropdown-menu .dropdown-item{
+    padding: 0%;
+    margin: 0;
+}
+
+.dropdown-menu ul{
+    background-color: white;
+    border: 2px solid white;
+    position: relative;
+}
+
+.dropdown-menu li{
+    /* background-color: #ffc40c; */
+    border: 2px solid black;
+    position: relative;
+}
+/* .dropdown-menu a:hover{
+    background-color: rgb(216, 32, 63);
+}
+.dropdown-menu a:active{
+    background-color:rgb(216, 32, 63) ;
+}  */
+.nav-item .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+    .nav-item .submenu-left{ 
+		right:100%; left:auto;
+	}
+.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+.dropdown-menu > li:hover > .submenu{ display: block; } 
+
+.fresh img{
+    height: 40%;
+    width: 100%;
+}
