@@ -5,6 +5,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { SigninComponent } from './components/signin/signin.component';
 
 import { AppComponent } from './app.component';
 
@@ -15,6 +16,7 @@ export const router: Routes = [
     { path: 'gallery', component: GalleryComponent },
     { path: 'contact', component: ContactComponent },
     { path: 'signup', component: SignupComponent },
+    { path: 'signin', component: SigninComponent}
     
 ];
 
